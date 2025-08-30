@@ -8,9 +8,9 @@
 
 - [ ] Install Required Extensions
 
-- [ ] Compile the Project
+- [x] Compile the Project
 
-- [ ] Create and Run Task
+- [x] Create and Run Task (CI workflow added)
 
 - [ ] Launch the Project
 
