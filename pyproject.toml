@@ -1,0 +1,20 @@
+[project]
+name = "mc_ai_tools"
+version = "0.1.0"
+description = "Minecraft AI tools: agent runtime and world editing toolkit"
+readme = "README.md"
+authors = ["NetStrider <>"]
+requires-python = ">=3.10"
+
+[project.dependencies]
+nbtlib = "^0.16.0"
+anvil-parser = "^1.0.0"
+mcrcon = "^0.8.0"
+# optional: openai or other LLM libs added later
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0","black","isort"]
+
+[build-system]
+requires = ["setuptools>=61.0","wheel"]
+build-backend = "setuptools.build_meta"
